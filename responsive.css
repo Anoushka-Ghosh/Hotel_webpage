@@ -1,0 +1,104 @@
+@media screen and (max-width: 1000px) {
+    nav{
+        flex-direction: column;
+        margin-bottom:10px;
+    }
+
+    .logo{
+        justify-content: center;
+        margin: auto;
+        margin: 10px;
+    }
+
+    nav ul{
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    nav ul li{
+        padding: 13px 3px;
+    }
+    
+    section{
+        height: 500px;
+    }
+
+    section h2{
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    .card{
+        justify-content: center;
+        
+    }
+
+    .cards{
+        width: 200px;
+    }
+
+    .cards img{
+        width: 200px;
+    }
+
+    .lines h4{
+        text-align: center;
+    }
+
+    .img{
+        margin-top: 20px;
+    }
+
+    .imgs{
+        flex-direction: column;
+    }
+
+    .imgs img{
+        width: 200px;
+        margin-left: 63px;
+    }
+
+    .line{
+        width: 300px;
+    }
+
+    .line h1{
+        text-align: center;
+    }
+
+    .line p{
+        text-align: center;
+        width: 314px;
+    }
+
+    .h img{
+        width: 357px;
+        height: 138px;
+    }
+
+    .g img{
+        width: 200px;
+        margin-left: 23px;
+    }
+
+    .up{
+        justify-content: center;
+    }
+
+    .upc{
+        width: 200px;
+    }
+    .upc img{
+        width: 200px;
+        margin-left: -13px;
+    }
+
+    footer{
+        height: 62px;
+    }
+
+    footer p{
+        text-align: center;
+    }
+}
