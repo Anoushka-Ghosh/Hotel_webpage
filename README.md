@@ -1,2 +1,2 @@
 # Hotel_webpage
-I created a simple BEST HOTEL WEBSITE using HTML & CSS.
+https://anoushka-ghosh.github.io/Hotel_webpage/ tap here for a quick preview of my project.
