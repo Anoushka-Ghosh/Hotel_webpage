@@ -12,6 +12,10 @@ main{
     font-family: 'Playfair Display', serif;
 }
 
+body{
+    overflow: hidden;
+}
+
 footer{
     display: flex;
     justify-content: center;
