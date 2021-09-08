@@ -12,9 +12,9 @@ main{
     font-family: 'Playfair Display', serif;
 }
 
-body{
+/* body{
     overflow: hidden;
-}
+} */
 
 footer{
     display: flex;
