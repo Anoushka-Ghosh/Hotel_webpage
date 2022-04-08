@@ -112,7 +112,7 @@ main h1 {
 }
 
 .about img {
-    margin: 79px 50px 79px 234px;
+    margin: 107px 50px 79px 234px;
 }
 
 .lines2 h2 {
@@ -145,7 +145,7 @@ main h1 {
     height: 500px; 
     background: url('image/gallary1.jpg') no-repeat;
     margin: 50px auto;
-    animation: slide 35s infinite;
+    animation: slide 25s infinite;
 }
 @keyframes slide {
     12.5%{
@@ -187,7 +187,7 @@ ul{
 }
 .footer{
 	background-color: #4b4f59;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 .footer-col{
    width: 25%;
@@ -234,7 +234,7 @@ ul{
 	height: 40px;
 	width: 40px;
 	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
+	margin:0 10px 0px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
