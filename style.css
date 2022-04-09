@@ -151,7 +151,7 @@ main h1 {
     height: 500px; 
     background: url('image/gallary1.jpg') no-repeat;
     margin: 50px auto;
-    animation: slide 25s infinite;
+    animation: slide 35s ease-in infinite;
 }
 
 /* Animation Part */
