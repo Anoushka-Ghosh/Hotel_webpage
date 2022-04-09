@@ -5,9 +5,9 @@
 body {
     margin: 0;
     padding: 0;
-    line-height: 1.5;
 }
 
+/* Header Part */
 header::before {
     background: url('image/background.jpg') no-repeat center center/cover;
     content: "";
@@ -71,15 +71,16 @@ section {
     justify-content: center;
 }
 
-h1 {
+section h1{
     font-size: 80px;
 }
 
-p {
+section p {
     text-align: center;
     font-size: 2rem;
 }
 
+/* Main Part */
 main h1 {
     font-family: 'Playfair Display', serif;
     ;
@@ -89,6 +90,7 @@ main h1 {
     text-decoration: underline;
 }
 
+/* Rooms Part */
 .rooms {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -107,6 +109,7 @@ main h1 {
     font-size: 23px;
 }
 
+/* About Part */
 .about {
     display: flex;
 }
@@ -134,12 +137,15 @@ main h1 {
     color: red;
 }
 
+/* Hotel Features Part */
 .hotelFeatures img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
+/* Gallery Part */
 .gallary{
     width: 800px;
     height: 500px; 
@@ -147,6 +153,8 @@ main h1 {
     margin: 50px auto;
     animation: slide 25s infinite;
 }
+
+/* Animation Part */
 @keyframes slide {
     12.5%{
         background: url('image/gallary2.jpg') no-repeat;
@@ -174,6 +182,7 @@ main h1 {
     }
 }
 
+/* Footer Part */
 .container{
 	max-width: 1170px;
 	margin:auto;
