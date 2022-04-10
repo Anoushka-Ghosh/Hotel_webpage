@@ -27,7 +27,7 @@ header {
 
 .logo {
     font-size: 50px;
-    padding: 35px 90px;
+    padding: 35px 300px 35px 90px;
     font-weight: 550;
 }
 
@@ -43,18 +43,20 @@ nav ul li a {
     padding: 8px 8px;
     border: 2px solid transparent;
     border-radius: 5px;
+
 }
 
 nav ul li a:hover {
     background-color: rgb(97, 90, 90);
     color: white;
     text-decoration: underline;
-    transition: 0.3s ease-in;
+    transition: 0.3s linear;
 }
 
 nav ul li {
     list-style: none;
-    padding: 20px 23px;
+    padding: 20px 15px;
+    font-weight: 550;
 }
 
 .active {
@@ -97,7 +99,7 @@ main h1 {
     align-items: center;
     justify-content: center;
     grid-column-gap: 100px;
-    grid-row-gap: 40px;
+    grid-row-gap: 9px;
 }
 
 .lines {
@@ -139,7 +141,7 @@ main h1 {
 }
 
 /* Hotel Features Part */
-.hotelFeatures img {
+#hotelFeatures img {
     display: block;
     margin-left: auto;
     margin-right: auto;
